@@ -27,7 +27,7 @@ namespace BigSchool.ViewModels
 
         public DateTime getDateTime()
         {
-            return DateTime.Parse(string.Format("{0}, {1}", Date, Time));
+            return DateTime.Parse(string.Format("{0} {1}", Date, Time));
         }
     }
 }
