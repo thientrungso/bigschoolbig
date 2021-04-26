@@ -7,6 +7,6 @@ namespace BigSchool.Models
 {
     public class Following
     {
-
+        //đang ở trang 44
     }
 }
