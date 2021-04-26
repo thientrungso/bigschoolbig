@@ -183,9 +183,11 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\CoursesController.cs" />
+    <Compile Include="Controllers\FollowingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="DTOs\AttendanceDTO.cs" />
+    <Compile Include="DTOs\FollowingDTO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -224,6 +226,10 @@
     <Compile Include="Migrations\202104160209177_ThemAttendance.cs" />
     <Compile Include="Migrations\202104160209177_ThemAttendance.Designer.cs">
       <DependentUpon>202104160209177_ThemAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104260041462_themFollowing.cs" />
+    <Compile Include="Migrations\202104260041462_themFollowing.Designer.cs">
+      <DependentUpon>202104260041462_themFollowing.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -299,6 +305,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Followings\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -335,6 +342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104160209177_ThemAttendance.resx">
       <DependentUpon>202104160209177_ThemAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104260041462_themFollowing.resx">
+      <DependentUpon>202104260041462_themFollowing.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
