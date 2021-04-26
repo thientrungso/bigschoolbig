@@ -15,13 +15,13 @@
                 <li>
                     @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
                 </li>
-
+                
                 <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
                 
                 <li role="separator" class="divider"></li>@*cái này là cái vạch phân chia nè*@
                 
                 <li>
-                    <a href="#">Course I'm Going</a>
+                    <a href="@Url.Action("Attending", "Courses")">Course I'm Going</a>
                 </li>
 
                 <li>
